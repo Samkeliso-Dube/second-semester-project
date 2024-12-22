@@ -107,21 +107,26 @@ nano index.html
 
 - Save and exit
 
-
-
 ## **Networking**
 
--  Allow HTTP **port 80** traffic through the firewall:
-   ![Port 80 allowed](./images/port-80-allowed.png)
-
-
+- Allow HTTP **port 80** traffic through the firewall:
+  ![Port 80 allowed](./images/port-80-allowed.png)
 
 - Test your server’s accessibility by entering your server’s public IP address into a web browser.
-![Server availability](./images/moo-URL.png)
+  ![Server availability](./images/my-ip-add.png)
 
-***This Traffic is un-encrypted*** 
+**_This Traffic is un-encrypted_**
 
+- Lets Get a domain and encrypt the traffic
 
+- Navigate to https://freedns.afraid.org/ get a free domain
+
+- Map it with the server's public IP
+![my url](./images/moo-URL.png)
+
+- Should look like this (**_still unencrypted_** )
+
+### Lets encrypt!!!
 
 ## **Configuring HTTPS**
 
@@ -143,7 +148,7 @@ sudo certbot --apache
 ```
 
 - Certificate release:
-![View my secure site](./images/successful-ssl.png)
+  ![View my secure site](./images/successful-ssl.png)
 
 Congratulations !!!!
 
