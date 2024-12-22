@@ -122,7 +122,7 @@ nano index.html
 - Navigate to https://freedns.afraid.org/ get a free domain
 
 - Map it with the server's public IP
-![my url](./images/moo-URL.png)
+  ![my url](./images/moo-URL.png)
 
 - Should look like this (**_still unencrypted_** )
 
@@ -155,7 +155,18 @@ Congratulations !!!!
 Test your certificate on your browser
 ![view my ssl-certificate](./images/encrypted-traffic.png)
 
-## How to View My Landing Page
+Good Job !!!!
+
+### We have managed to:
+
+- configure Linux
+- Update & Upgrade packages
+- Install Apache
+- Run Apache
+- Create a domain
+- Encrypt traffic with SSL certificate
+
+## Navigate to my Landing Page
 
 You can view my simple html landing page here:
 _https://web.sammy.mooo.com_
