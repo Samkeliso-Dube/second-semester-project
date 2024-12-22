@@ -117,7 +117,7 @@ nano index.html
 
 
 - Test your server’s accessibility by entering your server’s public IP address into a web browser.
-![Server availability](./images/unsecure-URL.png)
+![Server availability](./images/moo-URL.png)
 
 ***This Traffic is un-encrypted*** 
 
